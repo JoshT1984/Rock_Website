@@ -1,0 +1,9 @@
+#navbar {
+    display:flex;
+    background-color: white;
+    position: absolute;
+    top:0;
+    height: 2.5em;
+    width:100vw;
+    border:1px black solid;
+}
