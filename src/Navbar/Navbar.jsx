@@ -7,10 +7,10 @@ function Navbar() {
     <>
       <div id="navbar">
         <div class = "buttons">
-        <button class = "button">Band Members</button>
-        <button class = "button">Music</button>
+        <button class = "button">Members</button>
+        <button class = "button">Discography</button>
         <button class = "button">Lyrics</button>
-        <button class = "button">Cover Art</button>
+        <button class = "button">Art</button>
         <button class = "button">Future Projects</button>
         </div>
       </div>
