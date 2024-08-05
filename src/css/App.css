@@ -1,10 +1,12 @@
 html, body {
   margin:0;
   padding:0;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 body {
-  background-color: #5c162e;
+  background-image: linear-gradient( to bottom, rgb(10, 10, 10) 55%, #4d0202);
 }
 
 

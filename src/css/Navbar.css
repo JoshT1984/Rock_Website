@@ -1,9 +1,38 @@
 #navbar {
-    display:flex;
-    background-color: white;
-    position: absolute;
-    top:0;
-    height: 2.5em;
-    width:100vw;
-    border:1px black solid;
+  display: flex;
+  width:100vw;
+  align-items: center;
+  background-color: #450003;
+  height: 3em;
+  border: 5px #020001 solid;
+  margin: 0px 0px 50px 0px;
+}
+
+.buttons {
+  display: flex;
+  width:100vw;
+  justify-content: space-evenly;
+}
+
+.button {
+    background-color: #450003 ;
+    border: none;
+}
+
+.button:hover {
+    background-color: #1d010263 ;
+}
+
+.bg-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+}
+
+#bg-image {
+  width: 95vw;
+  height: 30em;
+  background-image: url(../assets/To_Bury_A_Hawk.png);
+  background-size: cover;
 }
