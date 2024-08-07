@@ -3,16 +3,14 @@ html, body {
   padding:0;
   overflow-x: hidden;
   overflow-y: auto;
-  font-family: 'CustomFont', Arial, sans-serif;
   background-color:#4d0202;
   font-size:1.25em;
 }
 
-@font-face {
-  font-family: 'CustomFont';
-       src:url(../assets/fonts/Angel_wish.ttf) format('truetype'), url(../assets/fonts/Angel_wish.otf) format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
+
+
+
+
+
 
 

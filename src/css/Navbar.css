@@ -1,59 +1,42 @@
 #navbar {
   display: flex;
-  width:100vw;
+  position: fixed;
+  width: 100vw;
   align-items: center;
   background-color: #380104;
   height: 2.2em;
   margin: 0px 0px 0px 0px;
-  border:1px solid rgba(255, 255, 255, 0.315);
+  z-index: 1000;
 }
+
 
 .buttons {
   display: flex;
-  width:100vw;
+  width: 100vw;
   justify-content: space-evenly;
 }
 
 .button {
-    background-color: #380104;;
-    border: none;
-    color:white;
+  background-color: #380104;
+  color: white;
+  border: none;
+  font-family: "CustomFont", Arial, sans-serif;
+  font-size:1em;
+  letter-spacing: 1px;
+}
+
+@font-face {
+  font-family: "CustomFont";
+  src: url(../assets/fonts/Angel_wish.ttf) format("truetype"),
+    url(../assets/fonts/Angel_wish.otf) format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 .button:hover {
-    background-color: #83000760 ;
+  background-color: #9c020a54;
 }
 
-.bg-container {
-  display: flex;
-  width: 100vw;
-  height: 100vh;
-  justify-content: center;
+.button:active {
+  color:black;
 }
-
-#bg-image {
-  width: 100vw;
-  height: 100vh;
-  background: linear-gradient(to bottom, #ffffff 1px, transparent 1px) 0 0,
-                        linear-gradient(to bottom, #ebecec3b 1px, transparent 1px) 0 20px;
-            background-size: 8px 8px; /* Adjust the size of the repeating pattern */
-            background-color: #4d0202; /* Background color */
-            font-family: 'Arial', sans-serif;
-            text-align: center;
-            animation: move 2s ease-in-out infinite; /* Add animation */
-}
-
-@keyframes move {
-  0% {
-      background-position: 0 0; /* Starting position */
-  }
-  50% {
-      background-position: 0 5px; /* Move down */
-  }
-  100% {
-      background-position: 0 0; /* Return to starting position */
-  }
-}
-
-
-

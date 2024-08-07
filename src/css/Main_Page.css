@@ -1,0 +1,41 @@
+.bg-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #main-section {
+    background-color: #380104;
+    width:50vw;
+    height:60vh;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.219)
+  }
+  
+  #bg-image {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, #686767 1px, transparent 1px) 0 0,
+                          linear-gradient(to bottom, #ffffff3b 1px, transparent 1px) 0 20px;
+              background-size: 8px 8px; /* Adjust the size of the repeating pattern */
+              background-color: #4d0202; /* Background color */
+              font-family: 'Arial', sans-serif;
+              text-align: center;
+              animation: move 5s ease-in-out infinite; /* Add animation */
+  }
+  
+  @keyframes move {
+    0% {
+        background-position: 0 0; /* Starting position */
+    }
+    50% {
+        background-position: 0 5px; /* Move down */
+    }
+    100% {
+        background-position: 0 0; /* Return to starting position */
+    }
+  } 
