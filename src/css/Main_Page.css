@@ -15,7 +15,7 @@
   height: 60vh;
   position: absolute;
   justify-content: center;
-  border: 1px solid rgba(255, 255, 255, 0.219);
+  border: 2px solid rgba(0, 0, 0, 0.836);
   color: white;
   font-size: 30px;
   font-family: CustomFont, Arial, Helvetica, sans-serif;
@@ -41,24 +41,35 @@
   text-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
 }
 
+li::before {
+  content: "\f001"; /* Unicode for the treble clef icon in Font Awesome */
+  font-family: "Font Awesome 5 Free"; /* Font Awesome family name */
+  font-weight: 900; /* Font Awesome solid icons weight */
+  left: 0;
+  top: 0;
+  color: #000000; /* Color of the icon */
+  font-size: .8em; /* Adjust size as needed */
+  text-shadow: 0px 0px 10px rgba(151, 151, 151, 0.411);
+}
+
 .details {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: left;
-  margin-bottom:.5em;
+  margin-bottom: 0.5em;
   text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
- 
+  list-style: none;
 }
 
 #bg-image {
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(to bottom, #686767 1px, transparent 1px) 0 0,
+  background: linear-gradient(to bottom, #ffffff 1px, transparent 1px) 0 0,
     linear-gradient(to bottom, #ffffff3b 1px, transparent 1px) 0 20px;
   background-size: 8px 8px; /* Adjust the size of the repeating pattern */
   background-color: #4d0202; /* Background color */
   font-family: "Arial", sans-serif;
   text-align: center;
-  animation: move 5s ease-in-out infinite; /* Add animation */
+  animation: move 8s ease-in-out infinite; /* Add animation */
 }
 
 @keyframes move {

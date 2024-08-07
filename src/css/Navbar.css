@@ -7,6 +7,10 @@
   height: 2.2em;
   margin: 0px 0px 0px 0px;
   z-index: 1000;
+  border-top: 2px black solid;
+  border-left:2px black solid;
+  border-right:2px black solid;
+  border-bottom:none;
 }
 
 .buttons {

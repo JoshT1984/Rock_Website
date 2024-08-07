@@ -12,11 +12,11 @@ function Main_Page() {
           </div>
           <div>
             <ul>
-              <li class = "details"> Date formed: July 07, 2024</li>
-              <li class = "details"> Formed by: Hannah Thompson</li>
-              <li class = "details"> Genre: Classical Rock</li>
-              <li class = "details"> Inspired by: Panic of the Disco</li>
-              <li class = "details">
+              <li class = "details custom-bullets"> Date formed: July 07, 2024</li>
+              <li class = "details custom-bullets"> Formed by: Hannah Thompson</li>
+              <li class = "details custom-bullets"> Genre: Classical Rock</li>
+              <li class = "details custom-bullets"> Inspired by: Panic of the Disco</li>
+              <li class = "details custom-bullets">
                 {" "}
                 Instruments in band: Cello, Piano, Electric Guitar, Drums
               </li>
